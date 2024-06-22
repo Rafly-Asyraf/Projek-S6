@@ -498,7 +498,10 @@ header .icons #menu-bars{
     color:var(--green);
 }
 
-
+.error {
+    color: red;
+    font-weight: bold;
+}
 
 
 

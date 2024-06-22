@@ -24,8 +24,8 @@
 
         <div class="box">
             <h3>contact info</h3>
-            <a href="#">083423440</a>
-            <a href="#">089234550</a>
+            <a href="#">08342344023</a>
+            <a href="#">08923455046</a>
             <a href="#">raflyasyraf@gmail.com</a>
         </div>
 
@@ -39,14 +39,14 @@
 
     </div>
 
-    <div class="credit"> copyright @ 2023 by <span>mr. Rafly asyraf</span> </div>
+    <div class="credit"> copyright @ 2023 by <span>Rafly asyraf</span> </div>
 
 </section>
 
 <!-- footer section ends -->
 
 <!-- custom js file link  -->
-<script src="script.js"></script>
+<script src="<?= base_url('assets/js'); ?> script.js"></script>
 
 </body>
 </html>

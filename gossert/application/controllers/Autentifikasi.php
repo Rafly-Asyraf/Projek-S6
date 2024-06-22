@@ -13,7 +13,7 @@ class Autentifikasi extends CI_Controller
             'Alamat Email',
             'required|trim|valid_email',
             [
-                'required' => 'Email Harus diisi!!',
+                'required' => 'Email Harus di isi!!',
                 'valid_email' => 'Email Tidak Benar!!'
             ]
         );
@@ -22,7 +22,7 @@ class Autentifikasi extends CI_Controller
             'Password',
             'required|trim',
             [
-                'required' => 'Password Harus diisi'
+                'required' => 'Password Harus di isi'
             ]
         );
 
