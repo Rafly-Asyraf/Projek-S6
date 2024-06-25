@@ -27,8 +27,9 @@ class Order extends CI_Controller {
         $this->form_validation->set_rules('menu', 'Menu', 'required|min_length[3]', [
             'required' => 'Menu Harus di isi',
             'min_length' => 'Menu terlalu pendek']);
-        $this->form_validation->set_rules('no_telepon', 'No Telepon', 'required|numeric', [
+        $this->form_validation->set_rules('no_telepon', 'No Telepon','required|min_length[11]', [
             'required' => 'Nomer Telepon Harus di isi',
+            'min_length' => 'Nomer Telepon terlalu pendek',
             'numeric' => 'Nomer Telepon harus berupa angka']);
             
         $this->form_validation->set_rules('banyak_pesanan', 'Banyak Pesanan', 'required|numeric', [

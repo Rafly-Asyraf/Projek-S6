@@ -32,7 +32,6 @@
     <div class="icons">
         <i class="fas fa-bars" id="menu-bars"></i> <!-- Ikon menu (bars) -->
         <i class="fas fa-search" id="search-icon"></i> <!-- Ikon pencarian (search) -->
-        <a href="<?= base_url('order'); ?>" class="fas fa-shopping-cart"></a>
         <a href="<?= base_url('autentifikasi'); ?>" class="fa fa-user"></a> <!-- Ikon pengguna (user) -->
     </div>
 </header>
