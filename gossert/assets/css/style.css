@@ -333,9 +333,7 @@ header .icons #menu-bars{
 
 /* styling menu */
 
-.menu{
-    background-color: var(--transp);
-}
+
 .menu .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));

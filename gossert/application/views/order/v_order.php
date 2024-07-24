@@ -20,9 +20,18 @@
         </div>
         <div class="inputBox">
             <div class="input">
-                <span>Menu Yang Anda Pesanan</span>
-                <input type="text" placeholder="Masukan nama menu" name="menu" id="menu" value="<?php echo set_value('menu'); ?>">
-                <?php echo form_error('menu', '<div class="error">', '</div>'); ?>
+            <select value="<?php echo set_value('menu'); ?>" name="menu" id="menu">
+                    <option value="">Pilih Menu</option>
+                    <option value="tiramisu">tiramisu</option>
+                    <option value="ice brownies">Ice Brownies</option>
+                    <option value="Blood Orange Mascarpone">Blood Orange Mascarpone</option>
+                    <option value="Red Velvet Cake">Red Velvet Cake</option>
+                    <option value="Cupcake Cream">Cupcake Cream</option>
+                    <option value="Oreo Pancakes">Oreo Pancakes</option>
+                    <option value="Crepes">Crepes</option>
+                    <option value="Ice Cream Roll">Ice Cream Roll</option>
+                </select>
+                <?php echo form_error('menu', '<div class="error">', '</div>'); ?> 
             </div>
             <div class="input">
                 <span>Berapa Banyak Yang Anda Pesan</span>
